@@ -12,7 +12,7 @@ class TabBarController: UITabBarController {
     private func configureTabBar() {
         
         // Seting tabBar aperiance
-        tabBar.backgroundColor = .quaternaryLabel             // tabBar backgroundColor
+        tabBar.backgroundColor = #colorLiteral(red: 0.0901960656, green: 0.0901960656, blue: 0.0901960656, alpha: 1)             // tabBar backgroundColor
         tabBar.tintColor = .white                     // Selected tabBar color
         tabBar.unselectedItemTintColor =  .lightGray  // Unselected tab color
         
